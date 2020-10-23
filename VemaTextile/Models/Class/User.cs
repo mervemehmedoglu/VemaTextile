@@ -7,5 +7,6 @@ namespace VemaTextile.Models.Class
 {
     public class User
     {
+        public int UserID { get; set; }
     }
 }
