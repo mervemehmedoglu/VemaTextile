@@ -126,6 +126,7 @@
     </Compile>
     <Compile Include="Models\Class\CurrentAccount.cs" />
     <Compile Include="Models\Class\CurrentAccountCards.cs" />
+    <Compile Include="Models\Class\denemeclassı.cs" />
     <Compile Include="Models\Class\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
