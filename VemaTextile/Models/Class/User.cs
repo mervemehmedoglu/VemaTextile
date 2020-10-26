@@ -10,23 +10,30 @@ namespace VemaTextile.Models.Class
     public class User
     {
         [Key]
-        public int UserID { get; set; }
+        [Column(TypeName = "nvarchar")]
+        [StringLength(10)]
+        public int KullaniciKodu { get; set; }
         
         [Column(TypeName = "nvarchar")]
-        [StringLength(30)]
-        public string UserAppellation { get; set; }
+        [StringLength(20)]
+        public string KullaniciAdi { get; set; }
+        
         [Column(TypeName = "nvarchar")]
         [StringLength(20)]
-        public string UserPassword { get; set; }
-        public DateTime UserAddedDate { get; set; }
-        public DateTime UserUpdatedDate { get; set; }
+        public string Sifre { get; set; }
+     
         [Column(TypeName = "nvarchar")]
-        [StringLength(30)]
-        public string UserAddingStaff { get; set; }
-        [Column(TypeName = "nvarchar")]
-        [StringLength(30)]
-        public string UserUpdatingStaff { get; set; }
+        [StringLength(10)]
+        public string Kaydeden { get; set; }
 
-            
+        public DateTime KayitTarih { get; set; }
+
+        [Column(TypeName = "nvarchar")]
+        [StringLength(10)]
+        public string Degistiren { get; set; }
+
+        public DateTime DegisiklikTarihi { get; set; }
+
+
     }
 }

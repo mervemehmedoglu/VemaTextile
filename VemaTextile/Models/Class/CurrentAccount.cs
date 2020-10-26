@@ -12,95 +12,127 @@ namespace VemaTextile.Models.Class
         [Required]
         [Column(TypeName = "nvarchar")]
         [StringLength(57)]
-        public string DocumentNumber { set; get; }
+        public string EvrakNo{ set; get; }
+        
         [Required]
         [Column(TypeName = "nvarchar")]
         [StringLength(4)]
-        public string  Serial { set; get; }
+        public string  Seri { set; get; }
+       
         [Required]
         [Column(TypeName = "decimal(18,0)")]
-        public decimal IDNumber { set; get; }
-        public DateTime Date { set; get; }
+        public decimal IdNo { set; get; }
+       
+        public DateTime Tarih { set; get; }
+        
         [Column(TypeName = "money")]
-        public decimal OptionDay { set; get; }
-        public DateTime ExpiryDate { set; get; }
+        public decimal OpsiyonGunu{ set; get; }
+        
+        public DateTime VadeTarihi { set; get; }
+       
         [Required]
         [Column(TypeName = "nvarchar")]
         [StringLength(6)]
-        public string OperationType { set; get; }
+        public string IslemTuru { set; get; }
+       
         [Required]
         [Column(TypeName = "nvarchar")]
         [StringLength(80)]
-        public string SourceDocumentType { set; get; }
+        public string KaynakEvrakTipi { set; get; }
+       
         [Required]
         [Column(TypeName = "nvarchar")]
-        public string AccountCode { set; get; }
+        public string HesapKodu { set; get; }
+       
         [Required]
         [Column(TypeName = "nvarchar")]
-        public string AccountName { set; get; }
+        public string HesapAdi { set; get; }
+        
         [Column(TypeName = "nvarchar")]
         [StringLength(5)]
-        public string CurrencyTL { set; get; }
+        public string DovizTL { set; get; }
+       
         [Column(TypeName = "money")]
-        public decimal Total { set; get; }
+        public decimal Tutar { set; get; }
+       
         [Column(TypeName = "nvarchar")]
         [StringLength(5)]
-        public int CurrencyType { set; get; }
+        public int DovizCinsi { set; get; }
+        
         [Column(TypeName = "money")]
-        public decimal ExchangeRate { set; get; }
+        public decimal DovizKuru { set; get; }
+        
         [Column(TypeName = "money")]
-        public decimal CurrencyAmount { set; get; }
+        public decimal DovizTutar { set; get; }
+        
         [Column(TypeName = "money")]
-        public decimal KDVTotal{ set; get; }
+        public decimal KDVTutar{ set; get; }
+        
         [Column(TypeName = "money")]
-        public decimal OTVTotal{ set; get; }
+        public decimal OTVTutar{ set; get; }
+       
         [Column(TypeName = "money")]
-        public decimal DiscountAmount{ set; get; }
+        public decimal IskontoTutar{ set; get; }
+       
         [Column(TypeName = "nvarchar")]
         [StringLength(20)]
-        public string AdvanceTerm{ set; get; }
+        public string PesinVadeli{ set; get; }
+       
         [Column(TypeName = "nvarchar")]
         [StringLength(20)]
-        public string CounterAccountCode{ set; get; }
+        public string KarsiHesapKOdu{ set; get; }
+        
         [Column(TypeName = "nvarchar")]
         [StringLength(50)]
-        public string CounterAccountName{ set; get; }
+        public string KarsiHesapAdi{ set; get; }
+        
         [Column(TypeName = "nvarchar")]
         [StringLength(3)]
-        public string ResidualEffect{ set; get; }
+        public string BakiyeEtkisi{ set; get; }
+        
         [Column(TypeName = "varchar")]
         [StringLength(20)]
-        public string Code1{ set; get; }
+        public string Kod1{ set; get; }
+       
         [Column(TypeName = "varchar")]
         [StringLength(20)]
-        public string Code2{ set; get; }
+        public string Kod2{ set; get; }
+        
         [Column(TypeName = "varchar")]
         [StringLength(20)]
-        public string Code3{ set; get; }
+        public string Kod3{ set; get; }
+        
         [Column(TypeName = "varchar")]
         [StringLength(20)]
-        public string Code4{ set; get; }
+        public string Kod4{ set; get; }
+       
         [Column(TypeName = "varchar")]
         [StringLength(20)]
-        public string Code5{ set; get; }
+        public string Kod5{ set; get; }
+       
         [Column(TypeName = "nvarchar")]
         [StringLength(100)]
-        public string Comment{ set; get; }
+        public string Aciklama{ set; get; }
+       
         [Required]
         [Column(TypeName = "nvarchar")]
         [StringLength(20)]
-        public string RegisteredPerson{ set; get; }
-        public DateTime RegisteredDate{ set; get; }
+        public string Kaydeden{ set; get; }
+        
+        public DateTime KayitTarihi{ set; get; }
+        
         [Column(TypeName = "nvarchar")]
         [StringLength(20)]
-        public string UpdatePerson{ set; get; }
-        public DateTime UpdateDate{ set; get; }
+        public string Degistiren{ set; get; }
+        public DateTime DegisiklikTarihi{ set; get; }
+        
         [Column(TypeName = "nvarchar")]
         [StringLength(20)]
-        public string IDaccountCode{ set; get; }
+        public string IDHesapKodu{ set; get; }
+        
         [Required]
         [Column(TypeName = "decimal(18,0)")]
-        public decimal RowID{ set; get; }
+        public decimal Row_ID{ set; get; }
 
        
 
