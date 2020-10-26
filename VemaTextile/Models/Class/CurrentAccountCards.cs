@@ -11,191 +11,191 @@ namespace VemaTextile.Models.Class
     {
         [Key]
         [Required]
-        public int AccountID { get; set; }
+        public int HesapKodu { get; set; }
         [Required]
-        public string AccountName { get; set; }
-        public string AccountName2 { get; set; }
+        public string HesapAdi { get; set; }
+        public string HesapAdi2 { get; set; }
         [Column(TypeName = "nvarchar")]
         [StringLength(15)] 
-        public string CardType { get; set; }
+        public string KartTipi { get; set; }
         [Column(TypeName = "nvarchar")]
         [StringLength(50)] 
-        public string BillAdress { get; set; }     
+        public string FaturaAdresi1 { get; set; }     
         [Column(TypeName = "nvarchar")]
         [StringLength(50)] 
-        public string BillAdres2 { get; set; }
+        public string FaturaAdresi2 { get; set; }
         [Column(TypeName = "nvarchar")]
         [StringLength(50)] 
-        public string BillAdres3 { get; set; }
+        public string FaturaAdresi3 { get; set; }
         [Column(TypeName = "nvarchar")]
         [StringLength(15)] 
-        public string Telephone { get; set; }
+        public string Telefon { get; set; }
         [Column(TypeName = "nvarchar")]
         [StringLength(15)] 
-        public string Telephone2 { get; set; }
+        public string Telefon2 { get; set; }
         [Column(TypeName = "nvarchar")]
         [StringLength(15)] 
-        public string Fax { get; set; }  
+        public string Faks1 { get; set; }  
         [Column(TypeName = "nvarchar")]
         [StringLength(15)] 
-        public string Fax2 { get; set; }
+        public string Faks2 { get; set; }
         [Column(TypeName = "nvarchar")]
         [StringLength(30)] 
-        public string authorized { get; set; }
+        public string Yetkili { get; set; }
         [Column(TypeName = "nvarchar")]
         [StringLength(50)] 
         public string Email { get; set; }
         [Column(TypeName = "nvarchar")]
         [StringLength(70)] 
-        public string WebAdress { get; set; }
-        [Column(TypeName = "nvarchar")]
-        [StringLength(50)] 
-        public string TaxOffice { get; set; }
-        [Column(TypeName = "nvarchar")]
-        [StringLength(20)] 
-        public string TaxNo { get; set; }
-        public int DiscountRate { get; set; }
-        public int OptionDay { get; set; }
-        [Column(TypeName = "nvarchar")]
-        [StringLength(20)] 
-        public string PaymentDay { get; set; }    
-        [Column(TypeName = "nvarchar")]
-        [StringLength(20)] 
-        public string CurrencyType { get; set; }
-        [Column(TypeName = "money")]
-        public decimal CreditLimit { get; set; }
-        [Column(TypeName = "money")]
-        public decimal CurrencyCreditLimit { get; set; }
-        [Column(TypeName = "nvarchar")]
-        [StringLength(20)] 
-        public string RegionCode { get; set; }
-        [Column(TypeName = "nvarchar")]
-        [StringLength(20)] 
-        public string SpecialCode { get; set; }
-        [Column(TypeName = "nvarchar")]
-        [StringLength(20)] 
-        public string GroupCode { get; set; }
-        [Column(TypeName = "nvarchar")]
-        [StringLength(20)] 
-        public string TypeCode { get; set; }
-        [Column(TypeName = "varchar")]
-        [StringLength(20)] 
-        public string Code1 { get; set; }  
-        [Column(TypeName = "varchar")]
-        [StringLength(20)] 
-        public string Code2 { get; set; }
-        [Column(TypeName = "varchar")]
-        [StringLength(20)] 
-        public string Code3 { get; set; }
-        [Column(TypeName = "varchar")]
-        [StringLength(20)] 
-        public string Code4 { get; set; }
-        [Column(TypeName = "varchar")]
-        [StringLength(20)] 
-        public string Code5 { get; set; }
-        [Column(TypeName = "varchar")]
-        [StringLength(20)] 
-        public string Code6 { get; set; }
-        [Column(TypeName = "varchar")]
-        [StringLength(20)] 
-        public string Code7 { get; set; }
-        [Column(TypeName = "varchar")]
-        [StringLength(20)] 
-        public string Code8 { get; set; }
-        [Column(TypeName = "varchar")]
-        [StringLength(20)] 
-        public string Code9 { get; set; }
-        [Column(TypeName = "money")]
-        public decimal Code10 { get; set; }
-        [Column(TypeName = "money")]
-        public decimal Code11 { get; set; }
-        [Column(TypeName = "money")]
-        public decimal Code12 { get; set; }
-        [Column(TypeName = "money")]
-        public decimal Code13 { get; set; }
-        [Column(TypeName = "money")]
-        public decimal Code14 { get; set; }
-        [Column(TypeName = "nvarchar")]
-        [StringLength(50)] 
-        public string Comment1 { get; set; }
-        [Column(TypeName = "text")]
-        public string Comment2 { get; set; }
-        [Column(TypeName = "nvarchar")]
-        [StringLength(20)] 
-        public string IdentityCardSerialNumber { get; set; }
-        [Column(TypeName = "nvarchar")]
-        [StringLength(20)] 
-        public string IdentificationNumber { get; set; }
-        [Column(TypeName = "nvarchar")]
-        [StringLength(20)] 
-        public string MotherName { get; set; }
-        [Column(TypeName = "nvarchar")]
-        [StringLength(20)] 
-        public string FatherName { get; set; }
-        [Column(TypeName = "nvarchar")]
-        [StringLength(20)] 
-        public string BirthDate { get; set; }
-        [Column(TypeName = "nvarchar")]
-        [StringLength(20)] 
-        public string BirthPlace { get; set; }
-        [Column(TypeName = "nvarchar")]
-        [StringLength(30)] 
-        public string SuretyName { get; set; }
-        [Column(TypeName = "nvarchar")]
-        [StringLength(20)] 
-        public string SuretyTelephone { get; set; }
-        [Column(TypeName = "nvarchar")]
-        [StringLength(20)] 
-        public string SuretyIdentityCardSerialNumber { get; set; }
-        [Column(TypeName = "nvarchar")]
-        [StringLength(20)] 
-        public string SuretyIdentificationNumber { get; set; }
-        [Column(TypeName = "nvarchar")]
-        [StringLength(20)] 
-        public string SuretyMotherName { get; set; }
-        [Column(TypeName = "nvarchar")]
-        [StringLength(20)] 
-        public string SuretyFatherName { get; set; }
-        [Column(TypeName = "nvarchar")]
-        [StringLength(20)]
-        public string SuretyBirthDate { get; set; }
-        [Column(TypeName = "nvarchar")]
-        [StringLength(20)] 
-        public string SuretyBirthPlace { get; set; }
-        [Column(TypeName = "nvarchar")]
-        [StringLength(50)] 
-        public string SuretyAdress1 { get; set; }
-        [Column(TypeName = "nvarchar")]
-        [StringLength(50)] 
-        public string SuretyAdress2 { get; set; }
-        [Column(TypeName = "nvarchar")]
-        [StringLength(30)] 
-        public string ReceiverPerson { get; set; }
-        [Column(TypeName = "nvarchar")]
-        [StringLength(50)] 
-        public string DeliveryAddress { get; set; }
-        [Column(TypeName = "nvarchar")]
-        [StringLength(50)] 
-        public string DeliveryAddress2 { get; set; }
+        public string WebAdresi { get; set; }
         [Column(TypeName = "nvarchar")]
         [StringLength(50)]
-        public string DeliveryAddress3 { get; set; }
+        public string VergiDairesi { get; set; }
+        [Column(TypeName = "nvarchar")]
+        [StringLength(20)] 
+        public string VergiNo { get; set; }
+        public int IskontoOrani { get; set; }
+        public int OpsiyonGunu { get; set; }
+        [Column(TypeName = "nvarchar")]
+        [StringLength(20)] 
+        public string OdemeGunu { get; set; }    
+        [Column(TypeName = "nvarchar")]
+        [StringLength(20)] 
+        public string DovizCinsi { get; set; }
+        [Column(TypeName = "money")]
+        public decimal KrediLimiti { get; set; }
+        [Column(TypeName = "money")]
+        public decimal DovizKrediLimiti { get; set; }
+        [Column(TypeName = "nvarchar")]
+        [StringLength(20)] 
+        public string BolgeKodu { get; set; }
+        [Column(TypeName = "nvarchar")]
+        [StringLength(20)] 
+        public string OzelKodu { get; set; }
+        [Column(TypeName = "nvarchar")]
+        [StringLength(20)] 
+        public string GrupKodu { get; set; }
+        [Column(TypeName = "nvarchar")]
+        [StringLength(20)] 
+        public string TipKodu { get; set; }
+        [Column(TypeName = "varchar")]
+        [StringLength(20)] 
+        public string Kod1 { get; set; }  
+        [Column(TypeName = "varchar")]
+        [StringLength(20)] 
+        public string Kod2 { get; set; }
+        [Column(TypeName = "varchar")]
+        [StringLength(20)] 
+        public string Kod3 { get; set; }
+        [Column(TypeName = "varchar")]
+        [StringLength(20)] 
+        public string Kod4 { get; set; }
+        [Column(TypeName = "varchar")]
+        [StringLength(20)] 
+        public string Kod5 { get; set; }
+        [Column(TypeName = "varchar")]
+        [StringLength(20)] 
+        public string Kod6 { get; set; }
+        [Column(TypeName = "varchar")]
+        [StringLength(20)] 
+        public string Kod7 { get; set; }
+        [Column(TypeName = "varchar")]
+        [StringLength(20)] 
+        public string Kod8 { get; set; }
+        [Column(TypeName = "varchar")]
+        [StringLength(20)] 
+        public string Kod9 { get; set; }
+        [Column(TypeName = "money")]
+        public decimal Kod10 { get; set; }
+        [Column(TypeName = "money")]
+        public decimal Kod11 { get; set; }
+        [Column(TypeName = "money")]
+        public decimal Kod12 { get; set; }
+        [Column(TypeName = "money")]
+        public decimal Kod13 { get; set; }
+        [Column(TypeName = "money")]
+        public decimal Kod14 { get; set; }
+        [Column(TypeName = "nvarchar")]
+        [StringLength(50)] 
+        public string Aciklama1 { get; set; }
+        [Column(TypeName = "text")]
+        public string Aciklama2 { get; set; }
+        [Column(TypeName = "nvarchar")]
+        [StringLength(20)] 
+        public string NufusCuzdanSeriNo { get; set; }
+        [Column(TypeName = "nvarchar")]
+        [StringLength(20)] 
+        public string TCKimlikNo { get; set; }
+        [Column(TypeName = "nvarchar")]
+        [StringLength(20)] 
+        public string AnaAdi { get; set; }
+        [Column(TypeName = "nvarchar")]
+        [StringLength(20)] 
+        public string BabaAdi { get; set; }
+        [Column(TypeName = "nvarchar")]
+        [StringLength(20)] 
+        public string DogumTarihi { get; set; }
+        [Column(TypeName = "nvarchar")]
+        [StringLength(20)] 
+        public string DogumYeri { get; set; }
+        [Column(TypeName = "nvarchar")]
+        [StringLength(30)] 
+        public string KefilAdi { get; set; }
+        [Column(TypeName = "nvarchar")]
+        [StringLength(20)] 
+        public string KefilTelefon { get; set; }
+        [Column(TypeName = "nvarchar")]
+        [StringLength(20)] 
+        public string KefilNufusCuzdanSeriNo { get; set; }
+        [Column(TypeName = "nvarchar")]
+        [StringLength(20)] 
+        public string KefilTCKimlikNo { get; set; }
+        [Column(TypeName = "nvarchar")]
+        [StringLength(20)] 
+        public string KefilAnaAdi { get; set; }
+        [Column(TypeName = "nvarchar")]
+        [StringLength(20)] 
+        public string KefilBabaAdi { get; set; }
+        [Column(TypeName = "nvarchar")]
+        [StringLength(20)]
+        public string KefilDogumTarihi { get; set; }
+        [Column(TypeName = "nvarchar")]
+        [StringLength(20)] 
+        public string KefilDogumYeri { get; set; }
+        [Column(TypeName = "nvarchar")]
+        [StringLength(50)] 
+        public string KefilAdresi1 { get; set; }
+        [Column(TypeName = "nvarchar")]
+        [StringLength(50)] 
+        public string KefilAdresi2 { get; set; }
+        [Column(TypeName = "nvarchar")]
+        [StringLength(30)] 
+        public string TeslimAlan { get; set; }
+        [Column(TypeName = "nvarchar")]
+        [StringLength(50)] 
+        public string TeslimAdresi1 { get; set; }
+        [Column(TypeName = "nvarchar")]
+        [StringLength(50)] 
+        public string TeslimAdresi2 { get; set; }
+        [Column(TypeName = "nvarchar")]
+        [StringLength(50)]
+        public string TeslimAdresi3 { get; set; }
         [Column(TypeName = "nvarchar")]
         [StringLength(10)]
-        public string RegisteredPerson { get; set; }
-        public DateTime RegistrationDate { get; set; }
-        public DateTime RegistrationTime { get; set; }
+        public string Kaydeden { get; set; }
+        public DateTime KayitTarihi { get; set; }
+        public DateTime KayitSaati { get; set; }
         [Column(TypeName = "nvarchar")]
         [StringLength(40)]
-        public string RegistrationSource { get; set; }
+        public string KayitKaynak { get; set; }
         [Column(TypeName = "nvarchar")]
         [StringLength(30)]
-        public string UpdatePerson { get; set; } 
-        public DateTime UpdateDate { get; set; } 
-        public DateTime UpdateTime { get; set; }
+        public string Degistiren { get; set; } 
+        public DateTime DegisiklikTarihi { get; set; } 
+        public DateTime DegisiklikSaati { get; set; }
         [Column(TypeName = "nvarchar")]
         [StringLength(40)]
-        public string UpdateSource { get; set; }    
+        public string DegisiklikKaynak { get; set; }    
         [Column(TypeName = "decimal(18,0)")]
         public decimal RowID { get; set; }
 
