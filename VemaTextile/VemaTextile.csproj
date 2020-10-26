@@ -124,12 +124,17 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Class\BillsReceived.cs" />
-    <Compile Include="Models\Class\ChecksReceived.cs" />
-    <Compile Include="Models\Class\CommentDefinitions.cs" />
-    <Compile Include="Models\Class\CurrentAccount.cs" />
-    <Compile Include="Models\Class\CurrentAccountCards.cs" />
-    <Compile Include="Models\Class\User.cs" />
+    <Compile Include="Models\Class\AlinanSenetler.cs" />
+    <Compile Include="Models\Class\AlinanCekler.cs" />
+    <Compile Include="Models\Class\AciklamaTanimlar.cs" />
+    <Compile Include="Models\Class\CRMCode.cs" />
+    <Compile Include="Models\Class\CariHesapİslemleri.cs" />
+    <Compile Include="Models\Class\CariHesapKartlari.cs" />
+    <Compile Include="Models\Class\EylemVeGorevler.cs" />
+    <Compile Include="Models\Class\FaturaBilgileri.cs" />
+    <Compile Include="Models\Class\GeriOdemeIslemleri.cs" />
+    <Compile Include="Models\Class\GeriOdemePlani.cs" />
+    <Compile Include="Models\Class\Kullanicilar.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

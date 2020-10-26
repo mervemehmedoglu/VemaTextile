@@ -7,7 +7,7 @@ using System.Web;
 
 namespace VemaTextile.Models.Class
 {
-    public class CommentDefinitions
+    public class AciklamaTanimlar
     {
         [Key]
         [Required]

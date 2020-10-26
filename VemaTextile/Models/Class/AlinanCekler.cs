@@ -7,7 +7,7 @@ using System.Web;
 
 namespace VemaTextile.Models.Class
 {
-    public class ChecksReceived
+    public class AlinanCekler
     {
         [Key]
         [Column(TypeName = "decimal(18,0)")]

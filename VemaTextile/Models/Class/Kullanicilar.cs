@@ -7,7 +7,7 @@ using System.Web;
 
 namespace VemaTextile.Models.Class
 {
-    public class User
+    public class Kullanicilar
     {
         [Key]
         [Column(TypeName = "nvarchar")]

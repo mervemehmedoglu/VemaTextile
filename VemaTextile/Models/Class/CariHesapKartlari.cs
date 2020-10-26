@@ -7,7 +7,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace VemaTextile.Models.Class
 {
-    public class CurrentAccountCards
+    public class CariHesapKartlari
     {
         [Key]
         [Required]
