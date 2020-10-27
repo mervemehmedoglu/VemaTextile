@@ -134,7 +134,15 @@
     <Compile Include="Models\Class\FaturaBilgileri.cs" />
     <Compile Include="Models\Class\GeriOdemeIslemleri.cs" />
     <Compile Include="Models\Class\GeriOdemePlani.cs" />
+    <Compile Include="Models\Class\KarmaKoli.cs" />
+    <Compile Include="Models\Class\KarmaKoli2.cs" />
+    <Compile Include="Models\Class\Kod.cs" />
     <Compile Include="Models\Class\Kullanicilar.cs" />
+    <Compile Include="Models\Class\MuhasebeEntegrasyonTablosu.cs" />
+    <Compile Include="Models\Class\MuhasebeGrupKartlari.cs" />
+    <Compile Include="Models\Class\MuhasebeHesapKartlari.cs" />
+    <Compile Include="Models\Class\MuhasebeIslemleri.cs" />
+    <Compile Include="Models\Class\MuhasebeIsletme.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
