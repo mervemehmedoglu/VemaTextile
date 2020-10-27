@@ -12,30 +12,30 @@ namespace VemaTextile.Models.Class
         [Key]
         [Required]
         [Column(TypeName = "decimal(18,0)")]
-        public decimal Id { set; get; }
+        public decimal Id { get; set; }
 
         [Key]
         [Required]
         [Column(TypeName = "decimal(10,0)")]
-        public decimal KategoriId { set; get; }
+        public decimal KategoriId { get; set; }
   
         [Column(TypeName = "nvarchar")]
         [StringLength(40)]
-        public string Aciklama{ set; get; }
+        public string Aciklama{ get; set; }
 
         [Column(TypeName = "nvarchar")]
         [StringLength(400)]
-        public string Aciklama2 { set; get; }
+        public string Aciklama2 { get; set; }
 
         [Column(TypeName = "smallint")]
-        public int KodTipi { set; get; }
+        public int KodTipi { get; set; }
 
         [Column(TypeName = "decimal(10,0)")]
-        public decimal SiraNo { set; get; }
+        public decimal SiraNo { get; set; }
 
         [Key]
         [Required]
         [Column(TypeName = "decimal(18,0)")]
-        public decimal Row_ID { set; get; }
+        public decimal Row_ID { get; set; }
     }
 }
