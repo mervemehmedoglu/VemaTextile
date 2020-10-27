@@ -12,91 +12,91 @@ namespace VemaTextile.Models.Class
         [Required]
         [Column(TypeName = "nvarchar")]
         [StringLength(57)]
-        public string EvrakNO { set; get; }
+        public string EvrakNO { get; set; }
 
-        public DateTime Tarih { set; get; }
-
-        [Column(TypeName = "nvarchar")]
-        public string CHKKodu { set; get; }
+        public DateTime Tarih { get; set; }
 
         [Column(TypeName = "nvarchar")]
-        public string CHKAdi { set; get; }
+        public string CHKKodu { get; set; }
+
+        [Column(TypeName = "nvarchar")]
+        public string CHKAdi { get; set; }
 
         [Required]
         [Column(TypeName = "nvarchar")]
         [StringLength(30)]
-        public string Tıp { set; get; }
+        public string Tıp { get; set; }
 
         [Column(TypeName = "money")]
-        public decimal Tutar { set; get; }
+        public decimal Tutar { get; set; }
 
         [Column(TypeName = "money")]
-        public decimal Oran { set; get; }
+        public decimal Oran { get; set; }
 
         [Column(TypeName = "nvarchar")]
         [StringLength(10)]
-        public string DovizTL{ set; get; }
+        public string DovizTL{ get; set; }
 
         [Column(TypeName = "nvarchar")]
         [StringLength(20)]
-        public string DovizCinsi { set; get; }
+        public string DovizCinsi { get; set; }
 
         [Column(TypeName = "money")]
-        public decimal DovizKuru { set; get; }
+        public decimal DovizKuru { get; set; }
 
         [Column(TypeName = "money")]
-        public decimal DovizTutar { set; get; }
+        public decimal DovizTutar { get; set; }
 
         [Column(TypeName = "nvarchar")]
         [StringLength(20)]
-        public string Kod1 { set; get; }
+        public string Kod1 { get; set; }
 
         [Column(TypeName = "nvarchar")]
         [StringLength(20)]
-        public string Kod2 { set; get; }
+        public string Kod2 { get; set; }
 
         [Column(TypeName = "nvarchar")]
         [StringLength(20)]
-        public string Kod3 { set; get; }
+        public string Kod3 { get; set; }
 
         [Column(TypeName = "money")]
-        public string Kod4 { set; get; }
+        public string Kod4 { get; set; }
 
         [Column(TypeName = "money")]
-        public string Kod5 { set; get; }
+        public string Kod5 { get; set; }
 
         [Column(TypeName = "nvarchar")]
         [StringLength(50)]
-        public string TeslimAdres1 { set; get; }
+        public string TeslimAdres1 { get; set; }
 
         [Column(TypeName = "nvarchar")]
         [StringLength(50)]
-        public string TeslimAdres2 { set; get; }
+        public string TeslimAdres2 { get; set; }
 
         [Column(TypeName = "nvarchar")]
         [StringLength(50)]
-        public string TeslimAdres3 { set; get; }
+        public string TeslimAdres3 { get; set; }
 
         [Column(TypeName = "nvarchar")]
         [StringLength(50)]
-        public string Aciklama1 { set; get; }
+        public string Aciklama1 { get; set; }
 
         [Column(TypeName = "nvarchar")]
         [StringLength(50)]
-        public string Aciklama2 { set; get; }
+        public string Aciklama2 { get; set; }
 
         [Column(TypeName = "nvarchar")]
         [StringLength(10)]
-        public string KDVHesaplama { set; get; }
+        public string KDVHesaplama { get; set; }
 
         [Required]
         [Column(TypeName = "nvarchar")]
         [StringLength(50)]
-        public string KaynakEvrakTipi { set; get; }
+        public string KaynakEvrakTipi { get; set; }
 
         [Key]
         [Required]
         [Column(TypeName = "decimal(18,0)")]
-        public decimal Row_ID { set; get; }
+        public decimal Row_ID { get; set; }
     }
 }

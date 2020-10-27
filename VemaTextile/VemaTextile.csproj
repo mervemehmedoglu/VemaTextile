@@ -136,7 +136,7 @@
     <Compile Include="Models\Class\GeriOdemePlani.cs" />
     <Compile Include="Models\Class\KarmaKoli.cs" />
     <Compile Include="Models\Class\KarmaKoli2.cs" />
-    <Compile Include="Models\Class\Kod.cs" />
+    <Compile Include="Models\Class\KOD.cs" />
     <Compile Include="Models\Class\Kullanicilar.cs" />
     <Compile Include="Models\Class\MuhasebeEntegrasyonTablosu.cs" />
     <Compile Include="Models\Class\MuhasebeGrupKartlari.cs" />
