@@ -143,6 +143,13 @@
     <Compile Include="Models\Class\MuhasebeHesapKartlari.cs" />
     <Compile Include="Models\Class\MuhasebeIslemleri.cs" />
     <Compile Include="Models\Class\MuhasebeIsletme.cs" />
+    <Compile Include="Models\Class\MuhasebeIsletmeKodlari.cs" />
+    <Compile Include="Models\Class\MuhasebeMasrafMerkeziKartlari.cs" />
+    <Compile Include="Models\Class\OdemePlani.cs" />
+    <Compile Include="Models\Class\ProjeGorevAciklama.cs" />
+    <Compile Include="Models\Class\ProjeGorevler.cs" />
+    <Compile Include="Models\Class\ProjeKategoriler.cs" />
+    <Compile Include="Models\Class\ProjeKaynaklar.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
