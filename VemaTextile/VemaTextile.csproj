@@ -150,6 +150,12 @@
     <Compile Include="Models\Class\ProjeGorevler.cs" />
     <Compile Include="Models\Class\ProjeKategoriler.cs" />
     <Compile Include="Models\Class\ProjeKaynaklar.cs" />
+    <Compile Include="Models\Class\ProjeTakibi.cs" />
+    <Compile Include="Models\Class\Sayimİslemleri.cs" />
+    <Compile Include="Models\Class\SilinenKayitlar.cs" />
+    <Compile Include="Models\Class\SiparisIslemleri.cs" />
+    <Compile Include="Models\Class\SonEvrakNotlar.cs" />
+    <Compile Include="Models\Class\StokIslemleri.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
