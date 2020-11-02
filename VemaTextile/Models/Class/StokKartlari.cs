@@ -177,6 +177,84 @@ namespace VemaTextile.Models.Class
         [StringLength(20)]
         public string Birim2{ get; set; }
 
+        [Column(TypeName = "nvarchar")]
+        [StringLength(20)]
+        public string Birim3 { get; set; }
 
+        [Column(TypeName = "nvarchar")]
+        [StringLength(1)]
+        public string Birim2lslec { get; set; }
+
+        [Column(TypeName = "nvarchar")]
+        [StringLength(1)]
+        public string Birim3lslec { get; set; }
+
+        [Column(TypeName = "money")]
+        public decimal Katsayi2 { get; set; }
+
+        [Column(TypeName = "money")]
+        public decimal Katsayi3 { get; set; }
+
+        [Column(TypeName = "nvarchar")]
+        [StringLength(20)]
+        public string ParaBirimi1 { get; set; }
+
+        [Column(TypeName = "nvarchar")]
+        [StringLength(20)]
+        public string ParaBirimi2 { get; set; }
+
+        [Column(TypeName = "nvarchar")]
+        [StringLength(20)]
+        public string ParaBirimi3 { get; set; }
+
+        [Column(TypeName = "nvarchar")]
+        [StringLength(10)]
+        public string Kaydeden { get; set; }
+
+        public DateTime KayitTarihi { get; set; }
+
+        public DateTime KayitSaati { get; set; }
+
+        [Column(TypeName = "nvarchar")]
+        [StringLength(10)]
+        public string Degistiren { get; set; }
+
+        public DateTime DegisiklikTarihi { get; set; }
+
+        public DateTime DegisiklikSaati { get; set; }
+
+        [Required]
+        [Column(TypeName = "decimal(18,0)")]
+        public decimal Row_ID { get; set; }
+
+        [Column(TypeName = "money")]
+        public decimal SatisFiyati4 { get; set; }
+
+        [Column(TypeName = "money")]
+        public decimal DovizSatisFiyati4 { get; set; }
+
+        [Column(TypeName = "money")]
+        public decimal AlimFiyati1 { get; set; }
+
+        [Column(TypeName = "money")]
+        public decimal AlimFiyati2 { get; set; }
+
+        [Column(TypeName = "money")]
+        public decimal AlimFiyati3 { get; set; }
+
+        [Column(TypeName = "money")]
+        public decimal AlimFiyati4 { get; set; }
+
+        [Column(TypeName = "money")]
+        public decimal DovizAlimFiyati1 { get; set; }
+
+        [Column(TypeName = "money")]
+        public decimal DovizAlimFiyati2 { get; set; }
+
+        [Column(TypeName = "money")]
+        public decimal DovizAlimFiyati3 { get; set; }
+
+        [Column(TypeName = "money")]
+        public decimal DovizAlimFiyati4 { get; set; }
     }
 }

@@ -157,10 +157,14 @@
     <Compile Include="Models\Class\SonEvrakNotlar.cs" />
     <Compile Include="Models\Class\StokIslemleri.cs" />
     <Compile Include="Models\Class\StokKartlari.cs" />
+    <Compile Include="Models\Class\TaahhutAciklama.cs" />
     <Compile Include="Models\Class\TaahhutKesifOzeti.cs" />
     <Compile Include="Models\Class\TaahhutMaliyet.cs" />
     <Compile Include="Models\Class\TaahhutMDetay.cs" />
     <Compile Include="Models\Class\TaahhutProjeTakıbı.cs" />
+    <Compile Include="Models\Class\TaahhutTeklifMaliyet.cs" />
+    <Compile Include="Models\Class\TaahhutTeklifUstaBilgileri.cs" />
+    <Compile Include="Models\Class\TaahhutUstaBilgileri.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
