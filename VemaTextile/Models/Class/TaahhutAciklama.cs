@@ -18,6 +18,31 @@ namespace VemaTextile.Models.Class
         [StringLength(8)]
         public string Seri { get; set; }
 
+        [Column(TypeName = "decimal(18,0)")]
+        public Decimal IdNo{ get; set; }
 
+        [Column(TypeName = "nvarchar")]
+        [StringLength(1)]
+        public string Ok { get; set; }
+
+        [Column(TypeName = "nvarchar")]
+        [StringLength(200)]
+        public string Aciklama { get; set; }
+
+        [Column(TypeName = "money")]
+        public decimal Miktar { get; set; }
+
+        [Column(TypeName = "money")]
+        public decimal BirimFiyat { get; set; }
+
+        [Column(TypeName = "money")]
+        public decimal Tutar { get; set; }
+
+        [Column(TypeName = "decimal(18,0)")]
+        public Decimal SiraNo { get; set; }
+
+        [Required]
+        [Column(TypeName = "decimal(18,0)")]
+        public decimal Row_ID { get; set; }
     }
 }
