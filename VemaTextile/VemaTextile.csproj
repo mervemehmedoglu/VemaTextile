@@ -170,7 +170,7 @@
     <Compile Include="Models\Class\TaahhutUstaBilgileri.cs" />
     <Compile Include="Models\Class\TahsilatPlani.cs" />
     <Compile Include="Models\Class\TeklifIslemleri.cs" />
-    <Compile Include="Models\Class\TeklisAciklama.cs" />
+    <Compile Include="Models\Class\TeklifAciklama.cs" />
     <Compile Include="Models\Class\UretimRecetesi.cs" />
     <Compile Include="Models\Class\UstaKartlari.cs" />
     <Compile Include="Models\Class\VerilenCekler.cs" />
