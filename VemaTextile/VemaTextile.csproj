@@ -161,6 +161,7 @@
     <Compile Include="Models\Class\TaahhutKesifOzeti.cs" />
     <Compile Include="Models\Class\TaahhutMaliyet.cs" />
     <Compile Include="Models\Class\TaahhutMDetay.cs" />
+    <Compile Include="Models\Class\TaahhutProjeTakibi.cs" />
     <Compile Include="Models\Class\TaahhutTeklifMaliyet.cs" />
     <Compile Include="Models\Class\TaahhutTeklifUstaBilgileri.cs" />
     <Compile Include="Models\Class\TaahhutUstaBilgileri.cs" />
