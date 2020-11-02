@@ -7,5 +7,6 @@ namespace VemaTextile.Models.Class
 {
     public class VerilenCekler
     {
+
     }
 }
