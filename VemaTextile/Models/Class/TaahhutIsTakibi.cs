@@ -5,7 +5,7 @@ using System.Web;
 
 namespace VemaTextile.Models.Class
 {
-    public class TaahhutlsTakibi
+    public class TaahhutIsTakibi
     {
     }
 }
