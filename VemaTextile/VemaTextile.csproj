@@ -160,7 +160,7 @@
     <Compile Include="Models\Class\TaahhutKesifOzeti.cs" />
     <Compile Include="Models\Class\TaahhutMaliyet.cs" />
     <Compile Include="Models\Class\TaahhutMDetay.cs" />
-    <Compile Include="Models\Class\TaahhutProjeTakıbı.cs" />
+    <Compile Include="Models\Class\TaahhutProjeTakibi.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
