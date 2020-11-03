@@ -159,7 +159,7 @@
     <Compile Include="Models\Class\StokKartlari.cs" />
     <Compile Include="Models\Class\TaahhutAciklama.cs" />
     <Compile Include="Models\Class\TaahhutKesifOzeti.cs" />
-    <Compile Include="Models\Class\TaahhutlsTakibi.cs" />
+    <Compile Include="Models\Class\TaahhutIsTakibi.cs" />
     <Compile Include="Models\Class\TaahhutMaliyet.cs" />
     <Compile Include="Models\Class\TaahhutMDetay.cs" />
     <Compile Include="Models\Class\TaahhutPrimTakibi.cs" />
@@ -170,7 +170,7 @@
     <Compile Include="Models\Class\TaahhutUstaBilgileri.cs" />
     <Compile Include="Models\Class\TahsilatPlani.cs" />
     <Compile Include="Models\Class\TeklifIslemleri.cs" />
-    <Compile Include="Models\Class\TeklisAciklama.cs" />
+    <Compile Include="Models\Class\TeklifAciklama.cs" />
     <Compile Include="Models\Class\UretimRecetesi.cs" />
     <Compile Include="Models\Class\UstaKartlari.cs" />
     <Compile Include="Models\Class\VerilenCekler.cs" />
